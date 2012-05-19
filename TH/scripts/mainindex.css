@@ -1,0 +1,59 @@
+/* 
+    Document   : mainindex
+    Created on : Apr 9, 2012, 11:37:02 PM
+    Author     : debian
+    Description:
+        stylesheet for main div of main index page of site*/
+
+
+#aboutsite{
+    float: left;
+    margin: 20px 0px 0px 20px;
+    width: 600px;
+    line-height: 20px;
+}
+
+#aboutsite .text{
+    margin-top: 30px;
+    color: #4f4f4f;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#slidshow{
+    margin-left: -40px;
+}
+
+#forms{
+    margin: 30px 0px 0px 0px;
+    float: right;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;    
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+    border-color: #c91919;
+}
+
+form{
+    margin-top: 20px;
+}
+
+#forms td{
+    font-size: 14px;
+    height: 40px;
+}
+
+#forms input[type="text"]{
+    width: 255px;
+    height: 35px;
+    border-style: solid;
+    /*background: url('../sitedata/inputs.png') no-repeat; */
+    border-width: 2px;
+    border-color: #afafaf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #6f6f6f;
+    font-size: 20px;
+}

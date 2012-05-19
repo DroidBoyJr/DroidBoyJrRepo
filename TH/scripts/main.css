@@ -1,0 +1,94 @@
+/* 
+    Document   : main
+    Created on : Apr 5, 2012, 8:25:02 AM
+    Author     : Infinitely Digital
+    Description:
+        The main styling fetched here.
+*/
+
+*{
+    margin: 0 auto;
+    
+    font-family: verdana, arial;
+    font-size: 14px;
+}
+
+.text{
+    margin: 10px;
+}
+
+root { 
+    display: block;
+}
+
+.wraper{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+body{
+    
+}
+
+
+#header{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    height:195px;
+    width: 100%;
+    background: url('../sitedata/header.jpg') no-repeat;
+}
+
+#logo{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    width: 321px;
+    
+}
+
+#menubar{
+    float: right;
+    width: 703px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.menuitem{
+    margin: 70px 0px 0px 0px;
+    float: left;
+    width: 150px;
+    height: 110px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 120px;
+    
+    color: #cfcfcf;
+    
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    
+    filter: progid:DXImageTransform.Microsoft.Chroma(color=#000),
+	        progid:DXImageTransform.Microsoft.Blur(pixelradius=5);
+    
+    
+    
+}
+
+
+
+#activemenuitem{
+    margin: 70px 0px 0px 0px;
+    float: left;
+    width: 150px;
+    height: 105px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 120px;
+    color: #000;
+    /*border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #fff; */
+}
+
+#main{
+    width: 100%;
+}
